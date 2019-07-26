@@ -14,5 +14,8 @@
 
     3.nothing to commit, working tree clean: 提交完成，工作区干净，也就是说工作区和本地仓库代码一致了
 
+#### 4.git reset: 回退
+    
+    比如：我往暂存区里提交了一个文件，但是发现这个文件是错的，想把这个文件退出暂存区，就会用到git reset
 
 
