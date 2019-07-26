@@ -10,6 +10,6 @@
 
     1.Changes not staged for commit: 代表更改还没有暂存，提示要先将代码提交到暂存区
 
-    2.
+    2.Changes to be committed： 要提交的更改，代表代码已经提交到暂存区，下一把可以提交到本地仓库了
 
 
