@@ -12,4 +12,7 @@
 
     2.Changes to be committed： 要提交的更改，代表代码已经提交到暂存区，下一把可以提交到本地仓库了
 
+    3.nothing to commit, working tree clean: 提交完成，工作区干净，也就是说工作区和本地仓库代码一致了
+
+
 
