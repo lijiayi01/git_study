@@ -112,3 +112,10 @@
 
 
 #### 13. 不要轻易的将本地创建的分支push到远程仓库，因为这样可能会导致bug的出现。一般远程仓库分支由项目组长创建。
+
+#### 14.git remote相关命令：
+
+    git remote: 查看关联的的远程仓库信息
+    git remote -v: 查看关联的远程仓库的详细信息
+    git remote add orgin <url>: 将本地的仓库和远程某个仓库关联起来
+    git remote add <name>：除远程仓库的关联
