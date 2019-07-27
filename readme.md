@@ -48,3 +48,20 @@
     然后: git add xxx.js
 
     git commit -m"xxx.js"
+
+#### 7.git clone  git pull的区别：
+
+    一般而言，都是先在git服务器创建远程仓库，比如github创建一个项目。然后让很多开发者去开发。很少有那种开发者先在本地初始化git本地仓库，再去和远程仓库连接。
+
+    比如： 公司的github项目地址在 https://github/xxx/xxx_project.git
+
+    如果是第一次拉取项目，需使用git clone。
+
+    git clone: 是在本地没有版本库的时候，从远程服务器克隆整个版本库到本地，是一个本地从无到有的过程。
+
+    git pull：在本地有版本库的情况下，从远程库获取最新commit 数据（如果有的话），并merge（合并）到本地。
+
+    通常情况下，远程操作的第一步，是使用git clone从远程主机克隆一个版本库到本地。
+
+    本地修改代码后，每次从本地仓库push到远程仓库之前都要先进行git pull操作，保证push到远程仓库时没有版本冲突。
+
