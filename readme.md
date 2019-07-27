@@ -74,3 +74,9 @@
     git checkout -d 分支名： 删除分支
     git marge 分支名：合并某分支到当前分支
 
+
+#### 9.常见问题：
+    
+    1.Your branch is ahead of 'origin/master' by 1 commit.
+
+    
