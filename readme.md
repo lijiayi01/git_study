@@ -67,4 +67,10 @@
 
 #### 8. git branch xxx: 创建分支
 
+    git branch: 查看分支
+    git checkout 分支名： 切换分支
+    git branch 分支名: 创建分支
+    git checkout -b 分支名： 创建分支并切换到该分支
+    git checkout -d 分支名： 删除分支
+    git marge 分支名：合并某分支到当前分支
 
