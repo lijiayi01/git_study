@@ -95,4 +95,20 @@
     先拉取(pull), 后提交(push)
 #### 11. git push: 提交本地仓库代码到远程仓库
 
-#### 12.如果我做了工作区的修改，但是还未add和commit，直接进行pull操作会发生是什么？
+#### 12.如果我做了工作区某个文件的修改，但是还未add和commit，但是另外一个同事也对这个文件进行了修改并提交到了远程仓库，此时我们直接进行pull操作会发生是什么？
+
+    git pull origin/master
+
+    会提示：  Your local changes to the following files would be overwritten by merge: (合并会导致你的本地修改被覆盖)
+    Please commit your changes or stash them before you merge.
+
+    所以我们可以将这个文件先stash住，
+    git stash
+    git pull origin master
+    git stash pop
+    git add .
+    git comit -m"xxx"
+    git push
+
+
+#### 13. 不要轻易的将本地创建的分支push到远程仓库，因为这样可能会导致bug的出现。一般远程仓库分支由项目组长创建。
