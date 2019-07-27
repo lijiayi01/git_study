@@ -79,4 +79,10 @@
     
     1.Your branch is ahead of 'origin/master' by 1 commit.
 
+    代表当前本地仓库要比远程仓库提前一个版本。
+
+    什么操作会导致这样呢？
+
+    比如 本地文件我修改以后，还未进行commit，则不会有这个错。
+    如果进行了commit，则说明了我们向本地仓库提交了commit，当然也就会提示上面的提示。
     
