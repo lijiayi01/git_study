@@ -14,6 +14,10 @@
 
     3.nothing to commit, working tree clean: 提交完成，工作区干净，也就是说工作区和本地仓库代码一致了
 
+    4. untrack表示是新文件，没有被add过，是为跟踪的意思。
+
+    not staged 表示add过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思
+
 #### 4.git reset: 将暂存区文件退回到工作区
     
     比如：我往暂存区里提交了一个文件，但是发现这个文件是错的，想把这个文件退出暂存区，就会用到git reset: git reset HEAD 文件
